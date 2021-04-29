@@ -2,7 +2,7 @@
 
 ![Theme Version](https://img.shields.io/badge/NexT-v7.3.0+-blue?style=flat-square)
 
-Add Dark Mode support for NexT, if NexT version < 8.2.0, Numjucks renderer plugin required.
+Add Dark Mode support for NexT, if NexT version < 8.2.0, Nunjucks renderer plugin required.
 
 ## Install
 
@@ -15,6 +15,9 @@ npm install hexo-next-darkmode --save
 You can add follow options in **theme** `_config.yml`.
 
 ``` yml
+# close NexT's darkmode
+darkmode: false
+
 # Darkmode JS
 # For more information: https://github.com/rqh656418510/hexo-next-darkmode, https://github.com/sandoche/Darkmode.js
 darkmode_js:

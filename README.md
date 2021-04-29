@@ -30,6 +30,7 @@ darkmode_js:
   saveInCookies: true # default: true
   label: '🌓' # default: ''
   autoMatchOsTheme: true # default: true
+  libUrl: # Set custom library cdn url for Darkmode.js
 ```
 
 ## Demo

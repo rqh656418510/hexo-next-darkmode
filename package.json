@@ -18,6 +18,7 @@
   "bugs": {
     "url": "https://github.com/rqh656418510/hexo-next-darkmode/issues"
   },
+  "homepage": "https://github.com/rqh656418510/hexo-next-darkmode",
   "dependencies": {
     "clean-css": "^4.2.1",
     "@next-theme/utils": "^1.1.0"

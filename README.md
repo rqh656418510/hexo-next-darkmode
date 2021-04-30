@@ -6,7 +6,7 @@ Add Dark Mode support for NexT, if NexT version < 8.2.0, Nunjucks renderer plugi
 
 ---
 
-English | [中文](https://github.com/rqh656418510/hexo-next-darkmode/README.md)
+English | [中文](https://github.com/rqh656418510/hexo-next-darkmode/blob/main/README_CN.md)
 
 ## Install
 

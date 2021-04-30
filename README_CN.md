@@ -7,7 +7,7 @@
 
 ---
 
-[English](https://github.com/rqh656418510/hexo-next-darkmode/README.md) | 中文
+[English](https://github.com/rqh656418510/hexo-next-darkmode/blob/main/README.md) | 中文
 
 ## 安装
 

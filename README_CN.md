@@ -1,22 +1,23 @@
+
 ## Hexo NexT Darkmode
 
 ![Theme Version](https://img.shields.io/badge/NexT-v7.3.0+-blue?style=flat-square)
 
-Add Dark Mode support for NexT, if NexT version < 8.2.0, Nunjucks renderer plugin required.
+适用于 NexT 主题的暗黑/夜间模式切换插件，如果 NexT 的版本 < 8.2.0，则需要额外安装 Nunjucks 渲染插件，否则 `hexo-next-darkmode` 插件无法正常运行。
 
 ---
 
-English | [中文](https://github.com/rqh656418510/hexo-next-darkmode/README.md)
+[English](https://github.com/rqh656418510/hexo-next-darkmode/README.md) | 中文
 
-## Install
+## 安装
 
 ``` bash
 npm install hexo-next-darkmode --save
 ```
 
-## Configure
+## 配置
 
-You can add follow options in **theme** `_config.yml`.
+往 NexT 主题的 `_config.yml` 配置文件里添加以下内容，必须确保 NexT 原生的 `darkmode` 选项设置为 `false`
 
 ``` yml
 # close NexT's darkmode
@@ -40,9 +41,9 @@ darkmode_js:
   libUrl: # Set custom library cdn url for Darkmode.js
 ```
 
-## Override style
+## 自定义样式
 
-- A CSS class `darkmode--activated` is added to the body tag when the darkmode is activated. You can take advantage of it to override the style and have a custom style. Follow options is plugin's default CSS class.
+暗黑/夜间模式激活后，会将 `darkmode--activated` CSS 类添加到 `body` 标签，你可以利用它覆盖插件默认自带的样式（如下所示），这样就可以实现暗黑/夜间模式样式的高度自定义，包括代码块颜色自定义等。
 
 ``` css
 .darkmode--activated {
@@ -84,13 +85,13 @@ darkmode_js:
 }
 ```
 
-- Use the class `darkmode-ignore` where you don't want to apply darkmode.
+- 当某个标签不想使用暗黑/夜间模式时，可以添加 `darkmode-ignore` CSS 类到标签上。
 
 ``` html
 <span class="darkmode-ignore">😬<span>
 ```
 
-- You can also add this style `isolation: isolate;` in your CSS, this will also ignore the darkmode.
+- 当然你也可以使用 `isolation: isolate;` CSS 样式来忽略暗黑/夜间模式。
 
 ``` css
 .button {
@@ -98,7 +99,7 @@ darkmode_js:
 }
 ```
 
-- It is also possible to revert the Dark Mode with this style `mix-blend-mode: difference;`.
+- 也可以使用这种 `mix-blend-mode: difference` CSS 样式来还原暗黑/夜间模式。
 
 ``` css
 .button {
@@ -106,12 +107,12 @@ darkmode_js:
 }
 ```
 
-## Demo
+## 例子
 
 - https://www.techgrow.cn
 
 ![darkmode-demo](https://www.techgrow.cn/gif/2021/04/darkmode.gif)
 
-## Thanks
+## 鸣谢
 
 - [Darkmode.js](https://github.com/sandoche/Darkmode.js)

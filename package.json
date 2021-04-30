@@ -1,6 +1,6 @@
 {
   "name": "hexo-next-darkmode",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Darkmode for NexT.",
   "repository": "rqh656418510/hexo-next-darkmode",
   "main": "index.js",

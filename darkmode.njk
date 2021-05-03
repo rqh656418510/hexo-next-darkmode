@@ -1,20 +1,56 @@
-
 <script src="{%if config.darkmode_js.libUrl %}{{ config.darkmode_js.libUrl }}{%else%}https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js{%endif%}"></script>
-
+<button class="darkmode-toggle" aria-label="Activate dark mode" aria-checked="false" onclick="toogleDarkmode();" role="checkbox">{{ config.darkmode_js.label }}</button>
 <script>
-var options = {
-  bottom: '{{ config.darkmode_js.bottom }}',
-  right: '{{ config.darkmode_js.right }}',
-  left: '{{ config.darkmode_js.left }}',
-  time: '{{ config.darkmode_js.time }}',
-  mixColor: '{{ config.darkmode_js.mixColor }}',
-  backgroundColor: '{{ config.darkmode_js.backgroundColor }}',
-  buttonColorDark: '{{ config.darkmode_js.buttonColorDark }}',
-  buttonColorLight: '{{ config.darkmode_js.buttonColorLight }}',
-  saveInCookies: {{ config.darkmode_js.saveInCookies }},
-  label: '{{ config.darkmode_js.label }}',
-  autoMatchOsTheme: {{ config.darkmode_js.autoMatchOsTheme }}
-}
-const darkmode = new Darkmode(options);
-darkmode.showWidget();
+	initDarkmode();
+
+	function toogleDarkmode() {
+		if (!window.darkmode) {
+			initDarkmode();
+		}
+		window.darkmode.toggle();
+		changeToggleDisplayStatus();
+	}
+
+	function initDarkmode() {
+		if (!window.darkmode) {
+			// init darkmode
+			var options = {
+			  bottom: '{{ config.darkmode_js.bottom }}',
+			  right: '{{ config.darkmode_js.right }}',
+			  left: '{{ config.darkmode_js.left }}',
+			  time: '{{ config.darkmode_js.time }}',
+			  mixColor: '{{ config.darkmode_js.mixColor }}',
+			  backgroundColor: '{{ config.darkmode_js.backgroundColor }}',
+			  buttonColorDark: '{{ config.darkmode_js.buttonColorDark }}',
+			  buttonColorLight: '{{ config.darkmode_js.buttonColorLight }}',
+			  saveInCookies: {{ config.darkmode_js.saveInCookies }},
+			  label: '{{ config.darkmode_js.label }}',
+			  autoMatchOsTheme: {{ config.darkmode_js.autoMatchOsTheme }}
+			};
+			const darkmode = new Darkmode(options);
+			window.darkmode = darkmode;
+			darkmode.showWidget();
+
+			// delete first toggle button
+			var nodeArray = document.getElementsByClassName("darkmode-toggle");
+			if(nodeArray.length > 1) {
+				 document.body.removeChild(nodeArray[0]);
+			}
+		}
+		changeToggleDisplayStatus();
+	}
+
+	// change toggle button display status
+	function changeToggleDisplayStatus() {
+		var toggleButtons = document.getElementsByClassName("darkmode-toggle");
+		if (window.darkmode.isActivated()) {
+			for (i = 0; i < toggleButtons.length; i++) {
+				toggleButtons[i].classList.add("darkmode-toggle--white");
+			}
+		} else {
+			for (j = 0; j < toggleButtons.length; j++) {
+				toggleButtons[j].classList.remove("darkmode-toggle--white");
+			}
+		}
+	}
 </script>

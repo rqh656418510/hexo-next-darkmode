@@ -1,6 +1,6 @@
 {
   "name": "hexo-next-darkmode",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "Darkmode for NexT.",
   "repository": "rqh656418510/hexo-next-darkmode",
   "main": "index.js",
@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/rqh656418510/hexo-next-darkmode",
   "dependencies": {
-    "clean-css": "^4.2.1",
-    "@next-theme/utils": "^1.1.0"
+    "nunjucks": "^3.2.3",
+    "clean-css": "^5.1.2",
+    "@next-theme/utils": "^1.2.0"
   }
 }

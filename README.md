@@ -2,7 +2,7 @@
 
 ![Theme Version](https://img.shields.io/badge/NexT-v7.3.0+-blue?style=flat-square)
 
-Add Dark Mode support for NexT, if NexT version < 8.2.0, Nunjucks renderer plugin required.
+Add Dark Mode support for NexT.
 
 ---
 

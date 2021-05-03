@@ -3,7 +3,7 @@
 
 ![Theme Version](https://img.shields.io/badge/NexT-v7.3.0+-blue?style=flat-square)
 
-适用于 NexT 主题的暗黑/夜间模式切换插件，如果 NexT 的版本 < 8.2.0，则需要额外安装 Nunjucks 渲染插件，否则 `hexo-next-darkmode` 插件无法正常运行。
+适用于 NexT 主题的暗黑/夜间模式切换插件。
 
 ---
 
@@ -43,7 +43,7 @@ darkmode_js:
 
 ## 自定义样式
 
-暗黑/夜间模式激活后，会将 `darkmode--activated` CSS 类添加到 `body` 标签，你可以利用它覆盖插件默认自带的样式（如下所示），这样就可以实现暗黑/夜间模式样式的高度自定义，包括代码块颜色自定义等。
+暗黑/夜间模式激活后，插件会将 `darkmode--activated` CSS 类添加到 `body` 标签上，你可以利用它覆盖插件默认自带的样式（如下所示），这样就可以实现暗黑/夜间模式 CSS 样式的高度自定义，包括自定义代码块颜色切换等。
 
 ``` css
 .darkmode--activated {

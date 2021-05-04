@@ -35,3 +35,7 @@
   color: #69dbdc;
   background: transparent;
 }
+
+button.darkmode-toggle {
+  z-index: 9999;
+}

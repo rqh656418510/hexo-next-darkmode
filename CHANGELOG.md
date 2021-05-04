@@ -2,6 +2,16 @@
 
 ### Version
 
+- 0.1.3
+
+### Features
+
+- optimize to compat with NexT theme 7.x
+
+# (2021-05-03)
+
+### Version
+
 - 0.1.2
 
 ### Features

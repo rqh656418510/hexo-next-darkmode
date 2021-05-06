@@ -31,8 +31,8 @@ darkmode_js:
   left: '32px' # default: 'unset'
   time: '0.5s' # default: '0.3s'
   mixColor: 'transparent' # default: '#fff'
-  backgroundColor: 'transparent'  # default: '#fff'
-  buttonColorDark: '#100f2c'  # default: '#100f2c'
+  backgroundColor: 'transparent' # default: '#fff'
+  buttonColorDark: '#100f2c' # default: '#100f2c'
   buttonColorLight: '#fff' # default: '#fff'
   isActivated: false # default false
   saveInCookies: true # default: true

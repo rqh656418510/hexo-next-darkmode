@@ -2,16 +2,27 @@
 
 ### Version
 
+- 0.1.5
+
+### Bug Fixes
+
+- fix the bug that add the configuration default to activate darkmode when `saveInCookies: false` and `autoMatchOsTheme: false`
+
+# (2021-05-06)
+
+### Version
+
 - 0.1.4
 
 ### Features
 
-- add the configuration default to activate darkmode when `saveInCookies: false`
+- add the configuration default to activate darkmode when `saveInCookies: false` and `autoMatchOsTheme: false`
 
 ``` yml
 darkmode_js:
   isActivated: true   # default false
-  saveInCookies: false    # default: true
+  saveInCookies: false   # default: true
+  autoMatchOsTheme: false   # default: true
 ```
 
 # (2021-05-04)

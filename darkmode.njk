@@ -18,7 +18,7 @@ const darkmode = new Darkmode(options);
 window.darkmode = darkmode;
 darkmode.showWidget();
 
-{%- if config.darkmode_js.isActivated and not config.darkmode_js.saveInCookies %}
+{%- if config.darkmode_js.isActivated and not config.darkmode_js.saveInCookies and not config.darkmode_js.autoMatchOsTheme %}
 if (window.darkmode && !window.darkmode.isActivated()) {
   window.darkmode.toggle();
   var toggleButtons = document.getElementsByClassName("darkmode-toggle");

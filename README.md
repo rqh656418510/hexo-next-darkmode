@@ -41,7 +41,7 @@ darkmode_js:
   libUrl: # Set custom library cdn url for Darkmode.js
 ```
 
-- `isActivated: true`: default to activate darkmode, always use with `saveInCookies: false`
+- `isActivated: true`: default to activate darkmode, always use with `saveInCookies: false` and `autoMatchOsTheme: false`
 
 ## Override style
 

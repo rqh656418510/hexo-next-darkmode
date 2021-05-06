@@ -15,5 +15,16 @@ var options = {
   autoMatchOsTheme: {{ config.darkmode_js.autoMatchOsTheme }}
 }
 const darkmode = new Darkmode(options);
+window.darkmode = darkmode;
 darkmode.showWidget();
+
+{%- if config.darkmode_js.isActivated and not config.darkmode_js.saveInCookies %}
+if (window.darkmode && !window.darkmode.isActivated()) {
+  window.darkmode.toggle();
+  var toggleButtons = document.getElementsByClassName("darkmode-toggle");
+  for (i = 0; i < toggleButtons.length; i++) {
+    toggleButtons[i].classList.add("darkmode-toggle--white");
+  }
+}
+{%- endif %}
 </script>

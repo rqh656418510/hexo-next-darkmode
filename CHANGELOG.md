@@ -1,3 +1,19 @@
+# (2021-05-06)
+
+### Version
+
+- 0.1.4
+
+### Features
+
+- add the configuration default to activate darkmode when `saveInCookies: false`
+
+``` yml
+darkmode_js:
+  isActivated: true   # default false
+  saveInCookies: false    # default: true
+```
+
 # (2021-05-04)
 
 ### Version

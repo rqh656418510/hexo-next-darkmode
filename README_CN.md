@@ -35,11 +35,14 @@ darkmode_js:
   backgroundColor: 'transparent'  # default: '#fff'
   buttonColorDark: '#100f2c'  # default: '#100f2c'
   buttonColorLight: '#fff' # default: '#fff'
+  isActivated: false # default false
   saveInCookies: true # default: true
   label: '🌓' # default: ''
   autoMatchOsTheme: true # default: true
   libUrl: # Set custom library cdn url for Darkmode.js
 ```
+
+- `isActivated:true`：默认激活暗模式，请始终与 `saveInCookies:false` 一起使用
 
 ## 自定义样式
 

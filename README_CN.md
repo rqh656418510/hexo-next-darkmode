@@ -42,7 +42,7 @@ darkmode_js:
   libUrl: # Set custom library cdn url for Darkmode.js
 ```
 
-- `isActivated:true`：默认激活暗模式，请始终与 `saveInCookies:false` 一起使用
+- `isActivated: true`：默认激活暗黑/夜间模式，请始终与 `saveInCookies: false` 一起使用
 
 ## 自定义样式
 

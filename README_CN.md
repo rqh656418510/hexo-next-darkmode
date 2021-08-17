@@ -114,7 +114,7 @@ darkmode_js:
 
 ## 博客教程
 
-- [NexT 主题如何添加暗黑模式](https://www.techgrow.cn/posts/abf4aee1.html)
+- [NexT 如何添加暗黑模式](https://www.techgrow.cn/posts/abf4aee1.html)
 
 ## 演示效果
 

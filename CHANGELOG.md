@@ -1,3 +1,13 @@
+# (2021-08-17)
+
+### Version
+
+- 0.1.6
+
+### Features
+
+- update docs
+
 # (2021-05-06)
 
 ### Version

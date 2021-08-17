@@ -87,6 +87,8 @@ darkmode_js:
 }
 ```
 
+## Cancel dark mode
+
 - Use the class `darkmode-ignore` where you don't want to apply darkmode.
 
 ``` html

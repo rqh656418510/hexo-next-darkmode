@@ -88,6 +88,8 @@ darkmode_js:
 }
 ```
 
+## 取消暗黑模式
+
 - 当某个标签不想使用暗黑/夜间模式时，可以添加 `darkmode-ignore` CSS 类到标签上。
 
 ``` html
@@ -110,7 +112,7 @@ darkmode_js:
 }
 ```
 
-## 例子
+## 演示效果
 
 - https://www.techgrow.cn
 

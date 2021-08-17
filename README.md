@@ -111,6 +111,10 @@ darkmode_js:
 }
 ```
 
+## Blog tutorial
+
+- [NexT how to add dark mode](https://www.techgrow.cn/posts/abf4aee1.html)
+
 ## Demo
 
 - https://www.techgrow.cn

@@ -36,6 +36,12 @@
   background: transparent;
 }
 
+/* fix button toggle */
 button.darkmode-toggle {
   z-index: 9999;
+}
+
+/* fix picture centered */
+img, .darkmode-ignore {
+  display: flex !important;
 }

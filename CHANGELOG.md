@@ -1,3 +1,13 @@
+# (2022-01-05)
+
+### Version
+
+- 0.1.7
+
+### Bug Fixes
+
+- fix the bug that picture centered
+
 # (2021-08-17)
 
 ### Version

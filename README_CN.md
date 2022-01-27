@@ -2,6 +2,7 @@
 ## Hexo NexT Darkmode
 
 ![Theme Version](https://img.shields.io/badge/NexT-v7.3.0+-blue?style=flat-square)
+[![lic-image]](LICENSE)
 
 适用于 NexT 主题的暗黑/夜间模式切换插件。
 
@@ -10,6 +11,10 @@
 [English](https://github.com/rqh656418510/hexo-next-darkmode/blob/main/README.md) | 中文
 
 ## 安装
+
+![size-image]
+[![dm-image]][npm-url]
+[![dt-image]][npm-url]
 
 ``` bash
 npm install hexo-next-darkmode --save
@@ -125,3 +130,9 @@ darkmode_js:
 ## 鸣谢
 
 - [Darkmode.js](https://github.com/sandoche/Darkmode.js)
+
+[npm-url]: https://www.npmjs.com/package/hexo-next-darkmode
+[lic-image]: https://img.shields.io/npm/l/hexo-next-darkmode?style=flat-square
+[dm-image]: https://img.shields.io/npm/dm/hexo-next-darkmode?style=flat-square
+[dt-image]: https://img.shields.io/npm/dt/hexo-next-darkmode?style=flat-square
+[size-image]: https://img.shields.io/github/languages/code-size/rqh656418510/hexo-next-darkmode?style=flat-square

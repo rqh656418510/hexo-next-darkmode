@@ -22,12 +22,16 @@ npm install hexo-next-darkmode --save
 
 ## 配置
 
-往 NexT 主题的 `_config.yml` 配置文件里添加以下内容，必须确保 NexT 原生的 `darkmode` 选项设置为 `false`
+首先确保 NexT 主题原生的 `darkmode` 选项设置为 `false`：
 
 ``` yml
-# close NexT's darkmode
+# Close NexT's darkmode
 darkmode: false
+```
 
+往 NexT 主题的 `_config.yml` 配置文件里添加以下内容：
+
+``` yml
 # Darkmode JS
 # For more information: https://github.com/rqh656418510/hexo-next-darkmode, https://github.com/sandoche/Darkmode.js
 darkmode_js:
@@ -51,7 +55,7 @@ darkmode_js:
 
 ## 自定义样式
 
-暗黑/夜间模式激活后，插件会将 `darkmode--activated` CSS 类添加到 `body` 标签上，你可以利用它覆盖插件默认自带的样式（如下所示），这样就可以实现暗黑/夜间模式 CSS 样式的高度自定义，包括自定义代码块颜色切换等。
+暗黑/夜间模式激活后，插件会将 `darkmode--activated` CSS 类添加到 `body` 标签上，你可以利用它覆盖插件默认自带的样式（如下所示），这样就可以实现暗黑/夜间模式 CSS 样式的高度自定义。
 
 ``` css
 .darkmode--activated {

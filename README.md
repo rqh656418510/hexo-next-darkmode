@@ -21,12 +21,16 @@ npm install hexo-next-darkmode --save
 
 ## Configure
 
-You can add follow options in **theme** `_config.yml`.
+First, make sure that the native `darkmode` option of NexT theme is set to `false`:
 
 ``` yml
-# close NexT's darkmode
+# Close NexT's darkmode
 darkmode: false
+```
 
+To NexT theme's `_config.yml` add the following content:
+
+``` yml
 # Darkmode JS
 # For more information: https://github.com/rqh656418510/hexo-next-darkmode, https://github.com/sandoche/Darkmode.js
 darkmode_js:

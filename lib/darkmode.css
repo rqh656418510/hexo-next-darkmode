@@ -41,7 +41,12 @@ button.darkmode-toggle {
   z-index: 9999;
 }
 
-/* fix picture centered */
+/* fix image centered */
 img, .darkmode-ignore {
   display: flex !important;
+}
+
+/* fix icp image display */
+.beian img {
+  display: inline-block !important;
 }

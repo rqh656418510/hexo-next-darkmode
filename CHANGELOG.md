@@ -1,3 +1,13 @@
+# (2022-05-07)
+
+### Version
+
+- 0.1.8
+
+### Bug Fixes
+
+- fix icp image display
+
 # (2022-01-05)
 
 ### Version

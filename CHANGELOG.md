@@ -1,3 +1,13 @@
+# (2022-05-17)
+
+### Version
+
+- 0.1.9
+
+### Features
+
+- change to default use unpkg cdn for darkmode.js
+
 # (2022-05-07)
 
 ### Version

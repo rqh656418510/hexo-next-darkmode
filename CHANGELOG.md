@@ -1,3 +1,13 @@
+# (2022-07-28)
+
+### Version
+
+- 0.1.10
+
+### Features
+
+- optimize code and docs
+
 # (2022-05-17)
 
 ### Version

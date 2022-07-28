@@ -50,7 +50,7 @@ darkmode_js:
   libUrl: # Set custom library cdn url for Darkmode.js
 ```
 
-- `isActivated: true`: default to activate darkmode, always use with `saveInCookies: false` and `autoMatchOsTheme: false`
+- `isActivated: true`: Default to activate darkmode, always use with `saveInCookies: false` and `autoMatchOsTheme: false`. At the same time, you need to set `pjax: true` in the configuration file of NexT theme, that is enable Pjax.
 
 ## Override style
 

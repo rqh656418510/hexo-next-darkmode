@@ -51,7 +51,7 @@ darkmode_js:
   libUrl: # Set custom library cdn url for Darkmode.js
 ```
 
-- `isActivated: true`：默认激活暗黑/夜间模式，请始终与 `saveInCookies: false`、`autoMatchOsTheme: false` 一起使用
+- `isActivated: true`：默认激活暗黑/夜间模式，请始终与 `saveInCookies: false`、`autoMatchOsTheme: false` 一起使用；同时需要在 NexT 主题的 `_config.yml` 配置文件里设置 `pjax: true`，即启用 Pjax。
 
 ## 自定义样式
 

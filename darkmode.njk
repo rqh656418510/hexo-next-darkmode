@@ -22,8 +22,10 @@ darkmode.showWidget();
 if (window.darkmode && !window.darkmode.isActivated()) {
   window.darkmode.toggle();
   var toggleButtons = document.getElementsByClassName("darkmode-toggle");
-  for (i = 0; i < toggleButtons.length; i++) {
-    toggleButtons[i].classList.add("darkmode-toggle--white");
+  if (toggleButtons && toggleButtons.length > 0) {
+    for (i = 0; i < toggleButtons.length; i++) {
+      toggleButtons[i].classList.add("darkmode-toggle--white");
+    }
   }
 }
 {%- endif %}

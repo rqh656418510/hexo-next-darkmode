@@ -1,3 +1,13 @@
+# (2023-08-21)
+
+### Version
+
+- 0.1.11
+
+### Features
+
+- change to default use jsdelivr cdn for darkmode.js
+
 # (2022-07-28)
 
 ### Version

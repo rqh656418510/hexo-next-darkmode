@@ -121,6 +121,28 @@ darkmode_js:
 }
 ```
 
+## 常见问题
+
+由于暗黑模式切换插件依赖了 [Darkmode.js](https://github.com/sandoche/Darkmode.js)，如果插件不生效，这很有可能是 `Darkmode.js` 的 CDN 资源失效了（在国内访问被墙）。此时，建议使用暗黑模式切换插件的 `libUrl` 配置参数来指定可用的 CDN 资源链接，如下所示：
+
+- 使用 `Unpkg` 免费提供的 CDN 资源
+
+``` yml
+darkmode_js:
+  ...
+  libUrl: 'https://unpkg.com/darkmode-js@1.5.7/lib/darkmode-js.min.js'
+```
+
+- 使用 `Jsdelivr` 免费提供的 CDN 资源
+
+``` yml
+darkmode_js:
+  ...
+  libUrl: 'https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js'
+```
+
+> 为了提高博客网站运行的稳定性，建议将 [Darkmode.js](https://www.techgrow.cn/lib/darkmode/darkmode@1.5.7.min.js) 下载到本地，然后将它部署到自己的博客站点内，最后使用暗黑模式切换插件的 `libUrl` 配置参数来指定站内的 JS 资源链接。
+
 ## 博客教程
 
 - [NexT 如何添加暗黑模式](https://www.techgrow.cn/posts/abf4aee1.html)

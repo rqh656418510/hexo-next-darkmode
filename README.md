@@ -7,7 +7,7 @@ Add Dark Mode support for NexT.
 
 ---
 
-English | [中文](https://github.com/rqh656418510/hexo-next-darkmode/blob/main/README_CN.md)
+English Doc | [中文文档](https://github.com/rqh656418510/hexo-next-darkmode/blob/main/README_CN.md)
 
 ## Install
 

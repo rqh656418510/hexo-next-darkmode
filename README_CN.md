@@ -151,7 +151,7 @@ darkmode_js:
 
 - https://www.techgrow.cn
 
-![darkmode-demo](https://www.techgrow.cn/gif/2021/04/darkmode.gif)
+![darkmode-demo](https://www.techgrow.cn/gif/darkmode.gif)
 
 ## 鸣谢
 

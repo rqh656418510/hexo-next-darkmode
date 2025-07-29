@@ -8,7 +8,7 @@
 
 ---
 
-[English Doc](https://github.com/rqh656418510/hexo-next-darkmode/blob/main/README.md) | 中文文档
+[English](https://github.com/rqh656418510/hexo-next-darkmode/blob/main/README.md) | 中文
 
 ## 安装
 
@@ -38,17 +38,17 @@ darkmode_js:
   enable: true
   bottom: '64px' # default: '32px'
   right: 'unset' # default: '32px'
-  left: '32px' # default: 'unset'
+  left: '30px' # default: 'unset'
   time: '0.5s' # default: '0.3s'
   mixColor: 'transparent' # default: '#fff'
-  backgroundColor: 'transparent' # default: '#fff'
-  buttonColorDark: '#100f2c' # default: '#100f2c'
-  buttonColorLight: '#fff' # default: '#fff'
+  backgroundColor: 'transparent'  # default: '#fff'
+  buttonColorDark: '#222' # default: '#222'
+  buttonColorLight: '#222' # default: '#222'
   isActivated: false # default false
-  saveInCookies: true # default: true
-  label: '🌓' # default: ''
+  saveInCookies: true # default: truhexo 
+  label: '' # default: '🌓'
+  icon: 'fas fa-circle-half-stroke' #default 'fas fa-circle-half-stroke'
   autoMatchOsTheme: true # default: true
-  libUrl: # Set custom library cdn url for Darkmode.js
 ```
 
 - `isActivated: true`：默认激活暗黑/夜间模式，请始终与 `saveInCookies: false`、`autoMatchOsTheme: false` 一起使用；同时需要在 NexT 主题的 `_config.yml` 配置文件里设置 `pjax: true`，即启用 Pjax。
@@ -92,8 +92,8 @@ darkmode_js:
 }
 
 .darkmode--activated code {
-  color: #69dbdc;
-  background: transparent;
+  color: #c6c6c6;
+  background: #181b1e;
 }
 ```
 
@@ -121,28 +121,6 @@ darkmode_js:
 }
 ```
 
-## 常见问题
-
-由于暗黑模式切换插件依赖了 [Darkmode.js](https://github.com/sandoche/Darkmode.js)，如果插件不生效，这很有可能是 `Darkmode.js` 的 CDN 资源失效了（在国内访问被墙）。此时，建议使用暗黑模式切换插件的 `libUrl` 配置参数来指定可用的 CDN 资源链接，如下所示：
-
-- 使用 `Unpkg` 免费提供的 CDN 资源
-
-``` yml
-darkmode_js:
-  ...
-  libUrl: 'https://unpkg.com/darkmode-js@1.5.7/lib/darkmode-js.min.js'
-```
-
-- 使用 `Jsdelivr` 免费提供的 CDN 资源
-
-``` yml
-darkmode_js:
-  ...
-  libUrl: 'https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js'
-```
-
-> 为了提高博客网站运行的稳定性，建议将 [Darkmode.js](https://www.techgrow.cn/lib/darkmode/darkmode@1.5.7.min.js) 下载到本地，然后将它部署到自己的博客站点内，最后使用暗黑模式切换插件的 `libUrl` 配置参数来指定站内的 JS 资源链接。
-
 ## 博客教程
 
 - [NexT 如何添加暗黑模式](https://www.techgrow.cn/posts/abf4aee1.html)
@@ -151,7 +129,7 @@ darkmode_js:
 
 - https://www.techgrow.cn
 
-![darkmode-demo](https://www.techgrow.cn/gif/darkmode.gif)
+![darkmode-demo](https://www.techgrow.cn/gif/2021/04/darkmode.gif)
 
 ## 鸣谢
 

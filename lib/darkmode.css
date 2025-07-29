@@ -32,13 +32,18 @@
 }
 
 .darkmode--activated code {
-  color: #69dbdc;
-  background: transparent;
+  color: #c6c6c6;
+  background: #181b1e;
+}
+
+/* center the icon */
+.darkmode-toggle i {
+  vertical-align: middle;
 }
 
 /* fix button toggle */
 button.darkmode-toggle {
-  z-index: 9999;
+  z-index: 999;
 }
 
 /* fix image centered */
@@ -49,4 +54,32 @@ img, .darkmode-ignore {
 /* fix icp image display */
 .beian img {
   display: inline-block !important;
+}
+
+/* darkmode toggle style */
+.darkmode-toggle {
+  border-radius: 0 !important;
+  width: 26px !important;
+  height: 26px !important;
+  opacity: .6;
+  color: #fff;
+  font-size: 13px;
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .darkmode-toggle {
+    left: 20px !important;
+    bottom: 92px !important;
+    opacity: .8;
+  }
+}
+
+/* Tablet */
+@media (min-width: 577px) and (max-width: 991px) {
+  .darkmode-toggle {
+    left: 20px !important;
+    bottom: 92px !important;
+    opacity: .8;
+  }
 }

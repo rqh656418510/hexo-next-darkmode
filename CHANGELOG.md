@@ -1,3 +1,13 @@
+# (2025-07-29)
+
+### Version
+
+- 0.1.12
+
+### Features
+
+- add icon and modify the styles to align with the new version of hexo's styling.
+
 # (2023-08-21)
 
 ### Version

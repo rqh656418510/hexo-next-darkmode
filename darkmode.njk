@@ -11,7 +11,7 @@ var options = {
   buttonColorDark: '{{ config.darkmode_js.buttonColorDark }}',
   buttonColorLight: '{{ config.darkmode_js.buttonColorLight }}',
   saveInCookies: {{ config.darkmode_js.saveInCookies }},
-  label: '{{ config.darkmode_js.label }}',
+  label: '<i class="{{ config.darkmode_js.icon }}"></i>',
   autoMatchOsTheme: {{ config.darkmode_js.autoMatchOsTheme }}
 }
 const darkmode = new Darkmode(options);

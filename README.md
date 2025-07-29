@@ -7,7 +7,7 @@ Add Dark Mode support for NexT.
 
 ---
 
-English Doc | [中文文档](https://github.com/rqh656418510/hexo-next-darkmode/blob/main/README_CN.md)
+English | [中文](https://github.com/rqh656418510/hexo-next-darkmode/blob/main/README_CN.md)
 
 ## Install
 
@@ -128,7 +128,7 @@ darkmode_js:
 
 - https://www.techgrow.cn
 
-![darkmode-demo](https://www.techgrow.cn/gif/darkmode.gif)
+![darkmode-demo](https://www.techgrow.cn/gif/2021/04/darkmode.gif)
 
 ## Thanks
 

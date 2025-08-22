@@ -4,7 +4,7 @@
 ![Theme Version](https://img.shields.io/badge/NexT-v7.3.0+-blue?style=flat-square)
 [![lic-image]](LICENSE)
 
-适用于 NexT 主题的暗黑/夜间模式切换插件。
+适用于 Hexo NexT 主题的暗黑/夜间模式切换插件。
 
 ---
 

@@ -3,7 +3,7 @@
 ![Theme Version](https://img.shields.io/badge/NexT-v7.3.0+-blue?style=flat-square)
 [![lic-image]](LICENSE)
 
-Add Dark Mode support for NexT.
+Add Dark Mode support for Hexo NexT.
 
 ---
 
